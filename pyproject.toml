@@ -1,0 +1,16 @@
+[project]
+name = "peblarpy"
+version = "0.0.1"
+authors = [
+	{ name="wyleung" },
+]
+description = "Python Client to Peblar EVCC REST-API"
+readme = "README.md"
+license = { file="LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/wyleung/peblarpy"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
